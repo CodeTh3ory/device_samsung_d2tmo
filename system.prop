@@ -1,0 +1,9 @@
+#
+# system.prop for SGH-T999
+#
+## cannot take spaces
+rild.libargs=-d /dev/smd0
+
+# Fields For Custom RIL
+ro.telephony.ril_class=SamsungQualcommUiccRIL
+telephony.lteOnGsmDevice=1
